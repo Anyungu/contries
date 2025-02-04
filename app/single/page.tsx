@@ -4,7 +4,6 @@ import { useCountryStore } from "@/store/country.store";
 
 const CountryDetailPage = () => {
   const { country } = useCountryStore();
-  console.log(country);
   return (
     <div className="min-h-screen bg-gray-100 py-12 px-6 sm:px-10">
       <div className="max-w-5xl mx-auto bg-white rounded-lg shadow-lg overflow-hidden">
