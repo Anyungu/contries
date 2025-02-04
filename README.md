@@ -73,5 +73,8 @@ Click on a country in the table to be redirected to a different page withcountry
 1. **NextJS**
 Moderd server side data fetching
 
-1. **Zustand**
+2. **Zustand**
 Simple global data store for page transition
+
+1. **Tailwind && ShadcnUI**
+Quick flexing and reusable styled components
