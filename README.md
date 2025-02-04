@@ -2,15 +2,15 @@
 
 ## Prerequisites
 
-Before you begin, ensure you have the following installed:
+Ensure you have Node LTS installed:
 
-- [Node.js](https://nodejs.org/) (version 22.12.0 or later)
+- [Node.js LTS](https://nodejs.org/) (version 22.12.0)
 
 ## Getting Started
 
 1. **Clone the Repository**
 
-   If you haven't already, clone the repository to your local machine:
+   Clone the repository to your local machine:
 
    ```bash
    git clone https://github.com/Anyungu/contries
@@ -19,7 +19,7 @@ Before you begin, ensure you have the following installed:
 
 2. **Install Dependencies**
 
-   Navigate to the project directory and install the required dependencies:
+   Install the required dependencies:
 
    ```bash
    npm install
@@ -41,7 +41,7 @@ Before you begin, ensure you have the following installed:
 
 1. **Build the Application**
 
-   To create an optimized production build, run:
+   Create an optimized build:
 
    ```bash
    npm run build
@@ -61,8 +61,17 @@ Before you begin, ensure you have the following installed:
 
 
 
-## Deploying Your Application
+## Usage
 
-To deploy your Next.js app, consider using the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
+1. **Search**
+Use the search input to filter throught the countries
 
-For detailed deployment instructions, refer to the [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying).
+2. **View More details**
+Click on a country in the table to be redirected to a different page withcountry specific details 
+
+## Decisions
+1. **NextJS**
+Moderd server side data fetching
+
+1. **Zustand**
+Simple global data store for page transition
