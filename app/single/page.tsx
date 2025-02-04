@@ -49,7 +49,7 @@ const CountryDetailPage = () => {
             </div>
           </div>
           <div className="mt-6">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="space-y-2">
                 <h3 className="text-lg text-gray-700">Region</h3>
                 <p className="text-gray-600">{country?.region}</p>
